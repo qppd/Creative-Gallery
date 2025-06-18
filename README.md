@@ -70,7 +70,6 @@ DB_PASSWORD=your_password
 resources/views/
 ├── administrator/
 │   ├── includes/
-│   ├── modals/
 │   └── requests.blade.php
 ├── user/
 │   ├── includes/
