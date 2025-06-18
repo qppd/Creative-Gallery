@@ -65,14 +65,6 @@ DB_USERNAME=your_username
 DB_PASSWORD=your_password
 </pre>
 
-<h3>🗃️ Run Migrations</h3>
-<pre>
-php artisan migrate --seed
-php artisan serve
-</pre>
-
-<hr>
-
 <h2>📁 Project Structure</h2>
 <pre>
 resources/views/
@@ -82,31 +74,8 @@ resources/views/
 │   └── requests.blade.php
 ├── user/
 │   ├── includes/
-│   └── explore.blade.php
+│   └── login.blade.php
 </pre>
-
-<hr>
-
-<h2>📸 Screenshots</h2>
-
-<p><strong>User Gallery View</strong></p>
-<img src="https://raw.githubusercontent.com/qppd/Creative-Gallery/main/public/images/screenshots/user_gallery.png" width="400" />
-
-<p><strong>Admin Requests Page</strong></p>
-<img src="https://raw.githubusercontent.com/qppd/Creative-Gallery/main/public/images/screenshots/admin_requests.png" width="400" />
-
-<em>💡 Add these images under <code>/public/images/screenshots/</code> in your repo.</em>
-
-<hr>
-
-<h2>📌 TODO</h2>
-<ul>
-    <li>Connect BID button to actual auction logic</li>
-    <li>Link category_id to category name</li>
-    <li>Integrate real-time bidding system</li>
-    <li>Add login/registration and bidding restrictions</li>
-    <li>Enhance search, filters, and sorting in the gallery</li>
-</ul>
 
 <hr>
 
